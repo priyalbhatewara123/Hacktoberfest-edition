@@ -3,10 +3,10 @@ using namespace std;
 
 int main()
 {
-    int i, n;
-    float arr[100];
+    int i, num;
+    int arr[500];
 
-    cout << "Enter total number of elements(1 to 100): ";
+    cout << "Enter total number of elements(1 to 500): ";
     cin >> n;
     cout << endl;
 
