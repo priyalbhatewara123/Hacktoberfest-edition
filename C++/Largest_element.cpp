@@ -3,22 +3,22 @@ using namespace std;
 
 int main()
 {
-    int i, n;
+    int num;
     float arr[100];
 
     cout << "Enter total number of elements(1 to 100): ";
-    cin >> n;
+    cin >> num;
     cout << endl;
 
     // Store number entered by the user
-    for(i = 0; i < n; ++i)
+    for(int i = 0; i < num; ++i)
     {
        cout << "Enter Number " << i + 1 << " : ";
        cin >> arr[i];
     }
 
     // Loop to store largest number to arr[0]
-    for(i = 1;i < n; ++i)
+    for(int i = 1;i < num; ++i)
     {
        // Change < to > if you want to find the smallest element
        if(arr[0] < arr[i])
